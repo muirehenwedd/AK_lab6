@@ -1,0 +1,1 @@
+cmd_/home/notebook/AK/AK_lab6/test2/hello.ko := ccache arm-linux-gnueabihf-ld -r -EL -z noexecstack -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/notebook/AK/AK_lab6/test2/hello.ko /home/notebook/AK/AK_lab6/test2/hello.o /home/notebook/AK/AK_lab6/test2/hello.mod.o ;  true
